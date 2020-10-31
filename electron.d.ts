@@ -15345,7 +15345,7 @@ Takes a V8 heap snapshot and saves it to `filePath`.
      * deprecations. This property is instead of the `--trace-deprecation` command line
      * flag.
      */
-    traceDeprecation: boolean;
+    traceDeprecation?: boolean;
     /**
      * A `Boolean` that controls whether or not process warnings printed to `stderr`
      * include their stack trace. Setting this to `true` will print stack traces for
